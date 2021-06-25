@@ -11,10 +11,10 @@ export interface DB {
   Persons: typeof PersonsClass;
 }
 
-const { DB_NAME, DB_PORT, DB_PASSWORD, DB_URL, DB_USER } = process.env;
+const { DB_NAME, DB_PORT, DB_PASSWORD, DB_HOST, DB_USER } = process.env;
 
 export const sequelize = new Sequelize(
-  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_URL}:${DB_PORT}/${DB_NAME}`
+  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`
 );
 
 const Dogs = DogsFactory(sequelize);
