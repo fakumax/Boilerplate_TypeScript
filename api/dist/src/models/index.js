@@ -20,4 +20,4 @@ const db = {
     Persons,
     Dogs,
 };
-exports.default = db;
+exports.default = d;

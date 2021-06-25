@@ -29,4 +29,4 @@ const db: DB = {
   Dogs,
 };
 
-export default db;
+export default d
