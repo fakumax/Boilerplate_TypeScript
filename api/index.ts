@@ -27,9 +27,9 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 sequelize
   .sync({ force: true })
   .then(() => {
-    console.log("nos conectamos a la base de datos :D");
-    app.listen(3000, () => {
-      console.log("Che, el servidor esta andando en el puerto 3000");
+    console.log("Nos conectamos a la base de datos :D");
+    app.listen(3001, () => {
+      console.log("Che, el servidor esta andando en el puerto 3001");
     });
   })
   .catch((err) => console.error(err));
