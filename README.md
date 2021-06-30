@@ -4,14 +4,14 @@ This Boilerplate contains a basic template for the frontend and the backend buil
 
 ## Table of Contents
 
-####Front-End  ( /client ) 
+#### Front-End  ( /client ) 
 > Build with npx create-react-app my-app --template typescript
 
 Extra :
 - Redux
 - Material UI
      
-####Back-End   ( /api )  
+#### Back-End   ( /api )  
 
 Build with : 
 
